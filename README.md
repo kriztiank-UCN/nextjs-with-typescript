@@ -290,7 +290,7 @@ export default CounterPage;
 - create tours/page.tsx
 - just add async and start using await 🚀🚀🚀
 - the same for db
-- Next.tsx extends the native Web fetch() API to allow each request on the server to set its own persistent caching semantics.
+- Next.js extends the native Web fetch() API to allow each request on the server to set its own persistent caching semantics.
 
 ```tsx
 const url = 'https://www.course-api.com/react-tours-project';
@@ -339,7 +339,7 @@ async function ToursPage() {
 
 ## Loading Component
 
-The special file loading.js helps you create meaningful Loading UI with React Suspense. With this convention, you can show an instant loading state from the server while the content of a route segment loads. The new content is automatically swapped in once rendering is complete.
+The special file loading.tsx helps you create meaningful Loading UI with React Suspense. With this convention, you can show an instant loading state from the server while the content of a route segment loads. The new content is automatically swapped in once rendering is complete.
 
 - tours/loading.tsx
 
@@ -355,10 +355,10 @@ export default loading;
 
 The error.tsx file convention allows you to gracefully handle unexpected runtime errors in nested routes.
 
-- tours/error.js
+- tours/error.tsx
 - 'use client'
 
-```js
+```tsx
 'use client';
 const error = () => {
   return <div>there was an error...</div>;
