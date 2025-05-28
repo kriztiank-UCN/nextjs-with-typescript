@@ -376,7 +376,7 @@ export default error;
 
   layout.tsx
 
-```js
+```tsx
 function ToursLayout({ children }: { children: React.ReactNode }) {
   return (
     <div>
@@ -394,7 +394,7 @@ export default ToursLayout;
 
 - app/tours/[id]/page.tsx
 
-```js
+```tsx
 const page = ({ params }: { params: { id: string } }) => {
   console.log(params);
 
@@ -407,7 +407,9 @@ const page = ({ params }: { params: { id: string } }) => {
 export default page;
 ```
 
-## Challenge - Setup Links
+## Setup Links
+
+- app/tours/page.tsx
 
 ```tsx
 return (
