@@ -559,7 +559,7 @@ Second, the sizes property configures how next/image automatically generates an 
 
 tours.tsx
 
-```js
+```tsx
 return (
   <div className='grid md:grid-cols-2 gap-8'>
     {data.map((tour) => {
