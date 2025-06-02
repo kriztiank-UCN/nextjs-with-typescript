@@ -606,7 +606,7 @@ return (
 
 - create app/(dashboard)/auth/[sign-in]
 
-```ts
+```tsx
 const SignInPage = ({ params }: { params: { 'sign-in': string } }) => {
   console.log(params);
   return <div>SignInPage</div>;
@@ -617,7 +617,7 @@ export default SignInPage;
 - create app/(dashboard)/auth/[...sign-in]
 - create app/(dashboard)/auth/[[...sign-in]]
 
-```ts
+```tsx
 const SignInPage = ({ params }: { params: { 'sign-in': string[] } }) => {
   console.log(params);
   console.log(params['sign-in'][1]);
