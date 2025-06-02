@@ -862,7 +862,7 @@ export const createUser = async (formData: FormData) => {
 };
 ```
 
-- don't "redirect" place inside "try" block
+- don't place "redirect" inside "try" block
 
 ```tsx
 try {

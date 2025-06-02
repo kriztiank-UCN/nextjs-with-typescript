@@ -1,5 +1,1 @@
-[
-  { "firstName": "ann", "lastName": "smith", "id": "1748863230205" },
-  { "firstName": "john", "lastName": "smith", "id": "1748863236303" },
-  { "firstName": "peter", "lastName": "smith", "id": "1748863243694" }
-]
+[{"firstName":"ann","lastName":"smith","id":"1748863230205"},{"firstName":"john","lastName":"smith","id":"1748863236303"},{"firstName":"peter","lastName":"smith","id":"1748863243694"},{"firstName":"kasper","lastName":"smith","id":"1748863747561"},{"firstName":"kurt","lastName":"smith","id":"1748863960904"},{"firstName":"ola","lastName":"smith","id":"1748864112598"}]
