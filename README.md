@@ -941,7 +941,7 @@ export const createUser = async (prevState: any, formData: FormData) => {
 
 ## Delete User
 
-- create components/DeleteButton
+- create components/DeleteButton.tsx
 - refactor UsersList
 
 ```tsx
